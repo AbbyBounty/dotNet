@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonClone", "AmazonClone\AmazonClone.csproj", "{AD9EAFCB-5F80-42BB-8D94-3E8839077794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld", "helloworld\helloworld.csproj", "{91D5AE31-40BD-439A-8C60-8C1B1272CAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld.Tests", "helloworld.Tests\helloworld.Tests.csproj", "{81F295E2-50B0-46B4-8A8A-F67ECABEF155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9EAFCB-5F80-42BB-8D94-3E8839077794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9EAFCB-5F80-42BB-8D94-3E8839077794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9EAFCB-5F80-42BB-8D94-3E8839077794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9EAFCB-5F80-42BB-8D94-3E8839077794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D5AE31-40BD-439A-8C60-8C1B1272CAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D5AE31-40BD-439A-8C60-8C1B1272CAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D5AE31-40BD-439A-8C60-8C1B1272CAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D5AE31-40BD-439A-8C60-8C1B1272CAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F295E2-50B0-46B4-8A8A-F67ECABEF155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F295E2-50B0-46B4-8A8A-F67ECABEF155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F295E2-50B0-46B4-8A8A-F67ECABEF155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F295E2-50B0-46B4-8A8A-F67ECABEF155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

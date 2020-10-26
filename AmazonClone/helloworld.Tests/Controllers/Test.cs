@@ -9,6 +9,7 @@ namespace helloworld.Tests.Controllers
         [Test]
         public void TestCase()
         {
+            Console.WriteLine("hello");
         }
     }
 }
