@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{6C09F939-D325-4BA7-B9D1-E3AC226D87C4}|Default">
   <MonoDevelop.Ide.ItemProperties.amazon PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../day2/test/amazon/Account.cs">
+    <Files>
+      <File FileName="../../day2/test/amazon/Account.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Amazon" expanded="True">
+            <Node name="amazon" expanded="True">
+              <Node name="Account.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Amazon" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
