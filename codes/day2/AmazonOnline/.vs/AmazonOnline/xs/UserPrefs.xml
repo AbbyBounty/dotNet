@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{113959EE-9F86-4190-BA90-F413F2782748}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TesterApp/InheritanceTest.cs">
+    <Files>
+      <File FileName="TesterApp/Person.cs" Line="1" Column="1" />
+      <File FileName="TesterApp/InheritanceTest.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AmazonOnline" expanded="True">
+            <Node name="TesterApp" expanded="True">
+              <Node name="InheritanceTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="AmazonOnline" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TesterApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
