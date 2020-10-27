@@ -3,7 +3,7 @@
 
 
 ### day 1
-> 1.Create Empty Visual studio solution AmazonOnline.
+>   1.Create Empty Visual studio solution AmazonOnline.
     2.Add new Console Application Tester to AmazonOnline Solution.
 
     3.Add new class Product with id, title, description, unitPrice, and quantity data members.
