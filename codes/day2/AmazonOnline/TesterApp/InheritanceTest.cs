@@ -19,7 +19,7 @@ namespace InheritanceDemo
 
 
             DateTime birthdate3 = new DateTime(1995, 5, 23);
-            Employee emp2 = new SalesEmployee("Vibhuti", "Trivedi", birthdate2, 25, "Projects", 13100, 28,5000);
+            Employee emp2 = new SalesEmployee("steve", "jobs", birthdate2, 25, "Projects", 13100, 28,5000);
             float salary2 = emp2.CalculateSalary();
             Console.WriteLine(" Vibhuti Salary = {0}", salary2);
 
