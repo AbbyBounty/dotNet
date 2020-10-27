@@ -3,7 +3,7 @@
 
 
 ### day 1
->   1.Create Empty Visual studio solution AmazonOnline.
+    1.Create Empty Visual studio solution AmazonOnline.
     2.Add new Console Application Tester to AmazonOnline Solution.
 
     3.Add new class Product with id, title, description, unitPrice, and quantity data members.
@@ -33,7 +33,7 @@
     23.Implement overloaded constructors for Item class.
     24.Override ToString method to Item class.
 
-    Ng serve25.Add new class Cart to project.
+    25.Add new class Cart to project.
     26.Add Items collection to Cart class as private member.
     27.Add two methods AddtoCart(Item item) and RemoveFromCart(Item item) to Cart class.
     28.Add GetAllItems method to Cart class.
