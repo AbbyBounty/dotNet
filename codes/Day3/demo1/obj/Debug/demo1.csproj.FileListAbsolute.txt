@@ -1,0 +1,6 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/bin/Debug/demo1.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/bin/Debug/demo1.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/obj/Debug/demo1.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/obj/Debug/demo1.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/obj/Debug/demo1.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/demo1/obj/Debug/demo1.pdb
