@@ -1,6 +1,0 @@
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/bin/Debug/test2.exe
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/bin/Debug/test2.pdb
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/obj/Debug/test2.csprojAssemblyReference.cache
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/obj/Debug/test2.csproj.CoreCompileInputs.cache
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/obj/Debug/test2.exe
-/Users/abhilash/Desktop/GitHub/dotNet/codes/day2/day2/test2/obj/Debug/test2.pdb
