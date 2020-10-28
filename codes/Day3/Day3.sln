@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo1", "demo1\demo1.csproj", "{5E999421-FFCC-4BDD-9A05-A42739FDDA47}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo3", "demo3\demo3.csproj", "{17400385-F0F9-4B91-BC9F-C7535AAB687F}"
 EndProject
 Global
@@ -12,12 +10,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Default|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Default|Any CPU.Build.0 = Debug|Any CPU
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E999421-FFCC-4BDD-9A05-A42739FDDA47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17400385-F0F9-4B91-BC9F-C7535AAB687F}.Default|Any CPU.ActiveCfg = Debug|Any CPU
 		{17400385-F0F9-4B91-BC9F-C7535AAB687F}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{17400385-F0F9-4B91-BC9F-C7535AAB687F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
