@@ -65,3 +65,55 @@ Console.WriteLine();
 -  It is good practice to wirte new class in seperate file.
 - this keyword in C# represent self refrence of an instance.
 - value is inbuilt keyword in C#
+
+
+
+# Day 3
+
+	1.C# Language Features
+	2..NET Framework
+	3.Assembly
+
+
+### Official Documentation
+		Microsoft official .NET Documentation
+
+### No.Stackoverflow--------> this site give lot of readymade problem
+			       solving samples
+	
+
+### C# Language Features
+
+	  Language syntax
+		Basic syntax of C# is similar like C++
+		New Keywords in C#
+		New Approach while developing Solution
+			Loosely Coupled, highly Cohesive 
+				
+
+
+		Common Type  System (CTS)
+
+
+- Value Types:
+				primitive types ( inbuilt types)
+				int, float, double, ....
+				enumeration
+				structure
+				values are stored on stack
+
+
+- Reference Types:
+	- class:
+        - concrete class
+        - abstract class
+	- interface:
+        - IPrintable
+        - ISacnnable
+				Delegte:
+				Event:
+				
+   - they are always stored on heap
+   - Heap  is used for dynamic memory allocation for objects in .NET
+   - Heap is managed by Garbage collector
+   - Garbade collector takes care Automatic Memory Management. 

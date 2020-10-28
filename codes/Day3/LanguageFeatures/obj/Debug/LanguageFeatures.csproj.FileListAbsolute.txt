@@ -1,0 +1,6 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/bin/Debug/LanguageFeatures.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/bin/Debug/LanguageFeatures.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/obj/Debug/LanguageFeatures.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/obj/Debug/LanguageFeatures.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/obj/Debug/LanguageFeatures.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/LanguageFeatures/obj/Debug/LanguageFeatures.pdb
