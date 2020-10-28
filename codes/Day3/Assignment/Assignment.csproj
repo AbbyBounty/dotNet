@@ -48,6 +48,9 @@
     <Compile Include="IorderService.cs" />
     <Compile Include="PurchaseOrderService.cs" />
     <Compile Include="WorkOrderService.cs" />
+    <Compile Include="PurchaseOrder.cs" />
+    <Compile Include="WorkOrder.cs" />
+    <Compile Include="Job.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

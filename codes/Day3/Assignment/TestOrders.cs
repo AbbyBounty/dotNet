@@ -12,8 +12,9 @@ namespace OrderTest {
 		static void Main (string [] args)
 		{
 
-			OrderProcess orderProcess = new OrderProcess ();
-			Order order = new Order ();
+			//OrderProcess orderProcess = new OrderProcess ();
+
+			
 			DateTime dateTime = new DateTime (1999, 3, 4);
 			Customer customer = new Customer (1, "steve", "jobs", "steve@gmail.com", "98989767");
 			List<Item> items = new List<Item> () { new Item(1, new Product(1, "java", "this is java book", 2, 4), 3),
@@ -21,10 +22,8 @@ namespace OrderTest {
 						  new Item(3, new Product(3, "OS", "this is best OS book", 2, 4), 3)
 					       };
 
-			order.orderId = 12;
-			order.orderDate = dateTime;
-			order.customer = customer;
-			order.Items = items;
+			Order order = new Order (12,dateTime,customer,items);
+
 
 			//insert Order
 			//Console.WriteLine (orderProcess.insertOrder (order));
@@ -66,8 +65,7 @@ namespace OrderTest {
 			//get all order
 			List<Order> orders = purchaseOrderService.getOrders ();
 			foreach (Order orderlist in orders) {
-				Console.WriteLine (orderlist);
-				foreach (Item itemlist in orderlist.Items) { Console.WriteLine (itemlist); }
+				foreach (Item itmes in orderlist.Items) { Console.WriteLine (itmes); }
 			}
 
 			//delete order

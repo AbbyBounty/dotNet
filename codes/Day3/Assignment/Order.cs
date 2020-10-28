@@ -13,7 +13,14 @@ namespace OrderProcessing
         public Customer customer { get; set; }
         public List<Item> Items { get; set; }
 
-        public Order()
+		public Order (int orderId, DateTime orderDate, Customer customer, List<Item> items) : this (orderId)
+		{
+			this.orderDate = orderDate;
+			this.customer = customer;
+			Items = items;
+		}
+
+		public Order()
         {
         }
 
