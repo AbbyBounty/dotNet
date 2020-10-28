@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo3", "demo3\demo3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{604253CE-86B3-4831-9BFD-C9BD7693B9C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingAndUnboxing", "BoxingAndUnboxing\BoxingAndUnboxing.csproj", "{6DEB47AF-5298-4F06-9D02-D5453858908E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Any CPU = Default|Any CPU
@@ -24,5 +26,11 @@ Global
 		{604253CE-86B3-4831-9BFD-C9BD7693B9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{604253CE-86B3-4831-9BFD-C9BD7693B9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{604253CE-86B3-4831-9BFD-C9BD7693B9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEB47AF-5298-4F06-9D02-D5453858908E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
