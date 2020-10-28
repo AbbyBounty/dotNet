@@ -7,17 +7,17 @@ namespace OrderProcessing {
 		public DeliveryManager () { }
 		
 
-			public List<PurchaseOrder> purchaseOrders { get; set; }
+			public List<WorkOrder> workOrders { get; set; }
 
-		public DeliveryManager (List<PurchaseOrder> orders)
+		public DeliveryManager (List<WorkOrder> workOrders)
 		{
-			this.purchaseOrders = orders;
+			this.workOrders = workOrders;
 		}
 
-		public String insertOrder (PurchaseOrder purchaseOrder)
+		public String insertOrder (WorkOrder workOrders)
 		{
-			this.purchaseOrders.Add (purchaseOrder);
-			if (this.purchaseOrders != null)
+			this.workOrders.Add (workOrders);
+			if (this.workOrders != null)
 				return "order added";
 			else
 				return "error";
@@ -30,39 +30,39 @@ namespace OrderProcessing {
 
 		}
 
-		public string deleteOrder (PurchaseOrder purchaseOrder)
+		public string deleteOrder (WorkOrder workOrder)
 		{
-			if (this.purchaseOrders != null) {this.purchaseOrders.Remove (purchaseOrder); return "deleted successfully"; } else return "error";
+			if (this.workOrders != null) {this.workOrders.Remove (workOrder); return "deleted successfully"; } else return "error";
 
 		}
 
-		public List<PurchaseOrder> getOrdersByCustomerId (int userid)
+		public List<WorkOrder> getOrdersByCustomerId (int userid)
 		{
 			//Customer customer = new Customer();
 
-			List<PurchaseOrder> purchaseOrders = new List<PurchaseOrder> ();
+			List<WorkOrder> workOrders = new List<WorkOrder> ();
 
-			foreach (PurchaseOrder purchaseOrder in this.purchaseOrders) {
+			foreach (WorkOrder workOrder in this.workOrders) {
 
-				if (purchaseOrder.customer.id == userid) {
-					purchaseOrders.Add (purchaseOrder);
+				if (workOrder.customer.id == userid) {
+					workOrders.Add (workOrder);
 				}
 
 
 			}
 
 
-			return purchaseOrders;
+			return workOrders;
 		}
 
-		public PurchaseOrder getOrderById (int orderid)
+		public WorkOrder getOrderById (int orderid)
 		{
-			PurchaseOrder order1 = new PurchaseOrder ();
-			foreach (PurchaseOrder purchaseOrder in this.purchaseOrders) {
+			WorkOrder order1 = new WorkOrder ();
+			foreach (WorkOrder workOrder in this.workOrders) {
 
 
-				if (purchaseOrder.orderId == orderid)
-					order1 = purchaseOrder;
+				if (workOrder.orderId == orderid)
+					order1 = workOrder;
 				else
 					return null;
 			}
@@ -70,19 +70,19 @@ namespace OrderProcessing {
 		}
 
 
-		public List<PurchaseOrder> getAllOrder ()
+		public List<WorkOrder> getAllOrder ()
 		{
 
-			List<PurchaseOrder> purchaseOrders = new List<PurchaseOrder> ();
-			foreach (PurchaseOrder purchaseOrder in this.purchaseOrders) { purchaseOrders.Add (purchaseOrder); }
+			List<WorkOrder> workOrders = new List<WorkOrder> ();
+			foreach (WorkOrder purchaseOrder in this.workOrders) { workOrders.Add (purchaseOrder); }
 
-			return purchaseOrders;
+			return workOrders;
 
 		}
 
 		public override string ToString ()
 		{
-			return " " + this.orders;
+			return " " + this.workOrders;
 		}
 	}
 	
