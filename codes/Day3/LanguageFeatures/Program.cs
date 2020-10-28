@@ -2,6 +2,28 @@
 
 namespace LanguageFeatures {
 
+	abstract public class Shape {
+
+		abstract public void Draw ();
+		 public string Color { get; set; }
+		 public string Width { get; set; }
+		 public void Display ()
+		{
+			Console.WriteLine ("shape is getting displayed...");
+		}
+
+	}
+
+
+	public class Line:Shape {
+
+		public override void Draw ()
+		{
+			Console.WriteLine ("Line is drawn...");
+			Console.WriteLine ("First Point {0},{1}");
+
+		}
+	}
 
 
 	interface Iprintable {
@@ -12,7 +34,7 @@ namespace LanguageFeatures {
 	}
 
 	class ThreeDPrinter : Iprintable {
-		public void start ()
+		public  void start ()
 		{
 			Console.WriteLine ("printer started");
 
@@ -51,6 +73,11 @@ namespace LanguageFeatures {
 			iprintable.print ();
 			iprintable.stop ();
 
+
+
+			Line line = new Line ();
+			line.Display ();
+			line.Draw ();
 
 
 		}
