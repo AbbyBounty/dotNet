@@ -66,44 +66,42 @@ Console.WriteLine();
 - this keyword in C# represent self refrence of an instance.
 - value is inbuilt keyword in C#
 
-
+---
 
 # Day 3
 
-	1.C# Language Features
-	2..NET Framework
-	3.Assembly
+>Agenda
+1. C# Language Features
+2. .NET Framework
+3. Assembly
 
 
 ### Official Documentation
-		Microsoft official .NET Documentation
+- Microsoft official .NET Documentation
 
 ### No.Stackoverflow--------> this site give lot of readymade problem
-			       solving samples
+- solving samples
 	
 
 ### C# Language Features
 
-	  Language syntax
-		Basic syntax of C# is similar like C++
-		New Keywords in C#
-		New Approach while developing Solution
-			Loosely Coupled, highly Cohesive 
-				
+**Language syntax**
+- Basic syntax of C# is similar like C++
+- New Keywords in C#
+- New Approach while developing Solution
+-    Loosely Coupled, highly Cohesive 
+- Common Type  System (CTS)
 
 
-		Common Type  System (CTS)
-
-
-- Value Types:
-				primitive types ( inbuilt types)
+### Value Types:
+	primitive types ( inbuilt types)
 				int, float, double, ....
 				enumeration
 				structure
 				values are stored on stack
 
 
-- Reference Types:
+### Reference Types:
 	- class:
         - concrete class
         - abstract class
