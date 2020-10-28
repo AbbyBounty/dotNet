@@ -1,28 +1,48 @@
 ﻿using System;
+
+using System.Collections.Generic;
+using OrderProcessing;
+using CRM;
 namespace OrderProcessing {
 	public class PurchaseOrderService : IorderService {
+		OrderProcess orderProcess = new OrderProcess ();
+
+		public PurchaseOrderService () { }
+
 		public void Approve ()
 		{
+			throw new NotImplementedException ();
 		}
 
-		public void Cancle ()
+		public bool Cancle (Order order)
 		{
+			if (orderProcess.deleteOrder (order) != null) { return true; } else { return false; }
 		}
 
-		public void createOrder ()
+		public bool Create (Order order)
 		{
+			if (orderProcess.insertOrder (order) != null) { return true; } else { return false; }
 		}
 
-		public void getOrder ()
+		public Order getOrder (int id)
 		{
+			return orderProcess.getOrderById (id);
 		}
 
-		public void Process ()
+		public List<Order> getOrders ()
 		{
+			return orderProcess.getAllOrder ();
 		}
 
-		public void updateOrder ()
+		public bool Process (Order order)
 		{
+			return true;
+		}
+
+		public bool Update (Order order)
+		{
+			return true;
+
 		}
 	}
 }

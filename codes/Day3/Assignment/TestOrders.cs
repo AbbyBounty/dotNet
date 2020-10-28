@@ -27,7 +27,7 @@ namespace OrderTest {
 			order.Items = items;
 
 			//insert Order
-			Console.WriteLine (orderProcess.insertOrder (order));
+			//Console.WriteLine (orderProcess.insertOrder (order));
 
 			//delete order
 			//Console.WriteLine(orderProcess.deleteOrder(order));
@@ -46,12 +46,32 @@ namespace OrderTest {
 			//Console.WriteLine (orders);
 
 			//getOrdersByCustomerId
-			List<Order> OrdersByCustomerId = orderProcess.getOrdersByCustomerId (1);
-			foreach (Order orderlist in OrdersByCustomerId) {
+			//List<Order> OrdersByCustomerId = orderProcess.getOrdersByCustomerId (1);
+			//foreach (Order orderlist in OrdersByCustomerId) {
+			//	Console.WriteLine (orderlist);
+			//	foreach (Item itemlist in orderlist.Items) { Console.WriteLine (itemlist); }
+			//}
+
+
+
+			IorderService purchaseOrderService = new PurchaseOrderService ();
+
+			//insert
+			Console.WriteLine(purchaseOrderService.Create (order));
+
+			
+			//getorderbyid
+			Console.WriteLine( purchaseOrderService.getOrder (12));
+
+			//get all order
+			List<Order> orders = purchaseOrderService.getOrders ();
+			foreach (Order orderlist in orders) {
 				Console.WriteLine (orderlist);
 				foreach (Item itemlist in orderlist.Items) { Console.WriteLine (itemlist); }
 			}
 
+			//delete order
+			Console.WriteLine (purchaseOrderService.Cancle (order));
 
 		}
 	}

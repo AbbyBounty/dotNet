@@ -2,24 +2,25 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assignment/Program.cs" Line="11" Column="19" />
-      <File FileName="Assignment/OrderProcess.cs" Line="13" Column="17" />
-      <File FileName="Assignment/IorderService.cs" Line="5" Column="26" />
-      <File FileName="Assignment/PurchaseOrderService.cs" Line="13" Column="4" />
-      <File FileName="Assignment/WorkOrderService.cs" Line="14" Column="4" />
+      <File FileName="Assignment/OrderProcess.cs" Line="1" Column="1" />
+      <File FileName="Assignment/IorderService.cs" Line="19" Column="3" />
+      <File FileName="Assignment/PurchaseOrderService.cs" Line="35" Column="4" />
+      <File FileName="Assignment/WorkOrderService.cs" Line="18" Column="14" />
+      <File FileName="Assignment/TestOrders.cs" Line="57" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Day3" expanded="True">
             <Node name="Assignment" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="TestOrders.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assignment FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.demo3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
