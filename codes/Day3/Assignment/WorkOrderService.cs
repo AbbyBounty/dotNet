@@ -10,32 +10,32 @@ namespace OrderProcessing {
 			throw new NotImplementedException ();
 		}
 
-		public bool Cancle (Order order)
+		public bool Cancle (PurchaseOrder order)
 		{
 			throw new NotImplementedException ();
 		}
 
-		public bool Create (Order order)
+		public bool Create (PurchaseOrder order)
 		{
 			throw new NotImplementedException ();
 		}
 
-		public Order getOrder (int id)
+		public PurchaseOrder getOrder (int id)
 		{
 			throw new NotImplementedException ();
 		}
 
-		public List<Order> getOrders ()
+		public List<PurchaseOrder> getOrders ()
 		{
 			throw new NotImplementedException ();
 		}
 
-		public bool Process (Order order)
+		public bool Process (PurchaseOrder order)
 		{
 			throw new NotImplementedException ();
 		}
 
-		public bool Update (Order order)
+		public bool Update (PurchaseOrder order)
 		{
 			throw new NotImplementedException ();
 		}

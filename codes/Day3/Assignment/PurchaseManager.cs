@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using OrderProcessing;
 using CRM;
 namespace OrderProcessing {
-	public class OrderProcess {
+	public class PurchaseManager:Manager {
 
-		public List<Order> orders { get; set; }
+		public List<PurchaseOrder> orders { get; set; }
 
-		public OrderProcess ()
+		public PurchaseManager ()
 		{
 
-			this.orders = new List<Order> ();
+			this.orders = new List<PurchaseOrder> ();
 		}
 
 
-		public String insertOrder (Order order)
+		public String insertOrder (PurchaseOrder order)
 		{
 			orders.Add (order);
 			if (orders != null)
@@ -30,19 +30,19 @@ namespace OrderProcessing {
 
 		}
 
-		public string deleteOrder (Order order)
+		public string deleteOrder (PurchaseOrder order)
 		{
 			if (order != null) { orders.Remove (order); return "deleted successfully"; } else return "error";
 
 		}
 
-		public List<Order> getOrdersByCustomerId (int userid)
+		public List<PurchaseOrder> getOrdersByCustomerId (int userid)
 		{
 			//Customer customer = new Customer();
 
-			List<Order> orders = new List<Order> ();
+			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
 
-			foreach (Order order in this.orders) {
+			foreach (PurchaseOrder order in this.orders) {
 
 				if (order.customer.id == userid) {
 					orders.Add (order);
@@ -55,10 +55,10 @@ namespace OrderProcessing {
 			return orders;
 		}
 
-		public Order getOrderById (int orderid)
+		public PurchaseOrder getOrderById (int orderid)
 		{
-			Order order1 = new Order ();
-			foreach (Order order in this.orders) {
+			PurchaseOrder order1 = new PurchaseOrder ();
+			foreach (PurchaseOrder order in this.orders) {
 
 
 				if (order.orderId == orderid)
@@ -70,11 +70,11 @@ namespace OrderProcessing {
 		}
 
 
-		public List<Order> getAllOrder ()
+		public List<PurchaseOrder> getAllOrder ()
 		{
 
-			List<Order> orders = new List<Order> ();
-			foreach (Order order in this.orders) { orders.Add (order); }
+			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
+			foreach (PurchaseOrder order in this.orders) { orders.Add (order); }
 
 			return orders;
 

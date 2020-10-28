@@ -5,7 +5,7 @@ using OrderProcessing;
 using CRM;
 namespace OrderProcessing {
 	public class PurchaseOrderService : IorderService {
-		OrderProcess orderProcess = new OrderProcess ();
+		PurchaseManager purchaseManager = new PurchaseManager ();
 
 		public PurchaseOrderService () { }
 
@@ -14,32 +14,32 @@ namespace OrderProcessing {
 			throw new NotImplementedException ();
 		}
 
-		public bool Cancle (Order order)
+		public bool Cancle (PurchaseOrder purchaseManager)
 		{
-			if (orderProcess.deleteOrder (order) != null) { return true; } else { return false; }
+			if (this.purchaseManager.deleteOrder (purchaseManager) != null) { return true; } else { return false; }
 		}
 
-		public bool Create (Order order)
+		public bool Create (PurchaseOrder purchaseManager)
 		{
-			if (orderProcess.insertOrder (order) != null) { return true; } else { return false; }
+			if (this.purchaseManager.insertOrder (purchaseManager) != null) { return true; } else { return false; }
 		}
 
-		public Order getOrder (int id)
+		public PurchaseOrder getOrder (int id)
 		{
-			return orderProcess.getOrderById (id);
+			return purchaseManager.getOrderById (id);
 		}
 
-		public List<Order> getOrders ()
+		public List<PurchaseOrder> getOrders ()
 		{
-			return orderProcess.getAllOrder ();
+			return purchaseManager.getAllOrder ();
 		}
 
-		public bool Process (Order order)
+		public bool Process (PurchaseOrder order)
 		{
 			return true;
 		}
 
-		public bool Update (Order order)
+		public bool Update (PurchaseOrder order)
 		{
 			return true;
 

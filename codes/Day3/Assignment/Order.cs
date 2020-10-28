@@ -10,36 +10,42 @@ namespace OrderProcessing
 
         public int orderId { get; set; }
         public DateTime orderDate { get; set; }
-        public Customer customer { get; set; }
-        public List<Item> Items { get; set; }
 
-		public Order (int orderId, DateTime orderDate, Customer customer, List<Item> items) : this (orderId)
+		public Order ()
 		{
-			this.orderDate = orderDate;
-			this.customer = customer;
-			Items = items;
 		}
 
-		public Order()
-        {
-        }
 
-        public Order(int id)
-        {
-            this.orderId = id;
-        }
+		//      public Customer customer { get; set; }
+		//      public List<Item> Items { get; set; }
 
-        public Order(Customer customer)
-        {
-            this.customer = customer;
-        }
+		//public Order (int orderId, DateTime orderDate, Customer customer, List<Item> items) : this (orderId)
+		//{
+		//	this.orderDate = orderDate;
+		//	this.customer = customer;
+		//	Items = items;
+		//}
 
-        public override string ToString()
-        {
-            return this.orderDate+" "+this.customer.ToString();
-        }
+		//public Order()
+		//      {
+		//      }
+
+		//      public Order(int id)
+		//      {
+		//          this.orderId = id;
+		//      }
+
+		//      public Order(Customer customer)
+		//      {
+		//          this.customer = customer;
+		//      }
+
+		//      public override string ToString()
+		//      {
+		//          return this.orderDate+" "+this.customer.ToString();
+		//      }
 
 
-       
-    }
+
+	}
 }

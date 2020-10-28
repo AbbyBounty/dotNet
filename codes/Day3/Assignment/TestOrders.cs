@@ -22,7 +22,7 @@ namespace OrderTest {
 						  new Item(3, new Product(3, "OS", "this is best OS book", 2, 4), 3)
 					       };
 
-			Order order = new Order (12,dateTime,customer,items);
+			PurchaseOrder order = new PurchaseOrder (12,dateTime,customer,items);
 
 
 			//insert Order
@@ -63,8 +63,8 @@ namespace OrderTest {
 			Console.WriteLine( purchaseOrderService.getOrder (12));
 
 			//get all order
-			List<Order> orders = purchaseOrderService.getOrders ();
-			foreach (Order orderlist in orders) {
+			List<PurchaseOrder> orders = purchaseOrderService.getOrders ();
+			foreach (PurchaseOrder orderlist in orders) {
 				foreach (Item itmes in orderlist.Items) { Console.WriteLine (itmes); }
 			}
 

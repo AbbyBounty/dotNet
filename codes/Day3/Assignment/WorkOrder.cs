@@ -6,7 +6,7 @@ using ShoppingCart;
 using Cataloge;
 
 namespace OrderProcessing {
-	public class WorkOrder:Order {
+	public class WorkOrder:PurchaseOrder {
 
 
 		public string Vendor { get; set; }

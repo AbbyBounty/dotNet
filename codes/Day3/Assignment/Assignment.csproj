@@ -33,7 +33,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestOrders.cs" />
-    <Compile Include="OrderProcess.cs" />
+    <Compile Include="PurchaseManager.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="InheritenceTest.cs" />
     <Compile Include="Customer.cs" />
@@ -51,6 +51,8 @@
     <Compile Include="PurchaseOrder.cs" />
     <Compile Include="WorkOrder.cs" />
     <Compile Include="Job.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="DeliveryManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
