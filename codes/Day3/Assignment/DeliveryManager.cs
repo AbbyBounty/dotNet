@@ -7,77 +7,49 @@ namespace OrderProcessing {
 		public DeliveryManager () { }
 		
 
-			public List<WorkOrder> workOrders { get; set; }
+		public List<WorkOrder> workOrders { get; set; }
 
 		public DeliveryManager (List<WorkOrder> workOrders)
 		{
 			this.workOrders = workOrders;
 		}
 
-		public String insertOrder (WorkOrder workOrders)
+		public string insertOrder (WorkOrder workOrders)
 		{
-			this.workOrders.Add (workOrders);
-			if (this.workOrders != null)
-				return "order added";
-			else
-				return "error";
-
+			 this.workOrders.Add (workOrders); 
+			
+			if (this.workOrders != null) return "order added"; else return "error";
 		}
 
 		public static void updateOrder ()
 		{
-
-
 		}
 
 		public string deleteOrder (WorkOrder workOrder)
 		{
 			if (this.workOrders != null) {this.workOrders.Remove (workOrder); return "deleted successfully"; } else return "error";
-
 		}
 
-		public List<WorkOrder> getOrdersByCustomerId (int userid)
+		public List<WorkOrder> getOrdersByCustomerId (string userid)
 		{
-			//Customer customer = new Customer();
-
 			List<WorkOrder> workOrders = new List<WorkOrder> ();
-
-			foreach (WorkOrder workOrder in this.workOrders) {
-
-				if (workOrder.customer.id == userid) {
-					workOrders.Add (workOrder);
-				}
-
-
-			}
-
-
+			foreach (WorkOrder workOrder in this.workOrders) { if (workOrder.Vendor == userid) { workOrders.Add (workOrder); } }
 			return workOrders;
 		}
 
 		public WorkOrder getOrderById (int orderid)
 		{
 			WorkOrder order1 = new WorkOrder ();
-			foreach (WorkOrder workOrder in this.workOrders) {
-
-
-				if (workOrder.orderId == orderid)
-					order1 = workOrder;
-				else
-					return null;
-			}
+			foreach (WorkOrder workOrder in this.workOrders) { if (workOrder.orderId == orderid) order1 = workOrder; else return null; }
 			return order1;
 		}
 
 
 		public List<WorkOrder> getAllOrder ()
 		{
-
 			List<WorkOrder> workOrders = new List<WorkOrder> ();
 			foreach (WorkOrder purchaseOrder in this.workOrders) { workOrders.Add (purchaseOrder); }
-
 			return workOrders;
-
 		}
 
 		public override string ToString ()

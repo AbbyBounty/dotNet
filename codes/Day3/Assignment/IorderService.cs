@@ -6,13 +6,13 @@ using CRM;
 namespace OrderProcessing {
 
 	public interface IorderService {
-		 bool Process (PurchaseOrder order);
-		 bool Cancle (PurchaseOrder order);
-		 bool Create (PurchaseOrder order);
-		 bool Update (PurchaseOrder order);
+		 bool Process (Order order);
+		 bool Cancle (Order order);
+		 bool Create (Order order);
+		 bool Update (Order order);
 
-		 PurchaseOrder getOrder (int id);
-		 List<PurchaseOrder> getOrders ();
+		 Order getOrder (int id);
+		 List<Order> getOrders ();
 
 		
 		

@@ -14,35 +14,43 @@ namespace OrderProcessing {
 			throw new NotImplementedException ();
 		}
 
-		public bool Cancle (PurchaseOrder purchaseManager)
+		public bool Cancle (Order order)
 		{
-			if (this.purchaseManager.deleteOrder (purchaseManager) != null) { return true; } else { return false; }
+			PurchaseOrder purchaseOrder = (PurchaseOrder)order;
+			if (this.purchaseManager.deleteOrder (purchaseOrder) != null) { return true; } else { return false; }
 		}
 
-		public bool Create (PurchaseOrder purchaseManager)
+		public bool Create (Order order)
 		{
-			if (this.purchaseManager.insertOrder (purchaseManager) != null) { return true; } else { return false; }
+			PurchaseOrder purchaseOrder = (PurchaseOrder)order;
+			if (this.purchaseManager.insertOrder (purchaseOrder) != null) { return true; } else { return false; }
 		}
 
-		public PurchaseOrder getOrder (int id)
+		public Order getOrder (int id)
 		{
 			return purchaseManager.getOrderById (id);
 		}
 
-		public List<PurchaseOrder> getOrders ()
+		public List<Order> getOrders ()
 		{
-			return purchaseManager.getAllOrder ();
+			List<Order> orders =new List<Order>();
+
+			//orders =  (PurchaseOrder)purchaseManager.getAllOrder ();
+			
+			return orders;
 		}
 
-		public bool Process (PurchaseOrder order)
+		public bool Process (Order order)
 		{
 			return true;
 		}
 
-		public bool Update (PurchaseOrder order)
+		public bool Update (Order order)
 		{
 			return true;
 
 		}
+
+		
 	}
 }

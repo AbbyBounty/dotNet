@@ -5,39 +5,51 @@ using OrderProcessing;
 using CRM;
 namespace OrderProcessing {
 	public class WorkOrderService : IorderService {
+		DeliveryManager deliveryManager = new DeliveryManager ();
+
+		public WorkOrderService () { }
+
 		public void Approve ()
 		{
 			throw new NotImplementedException ();
 		}
 
-		public bool Cancle (PurchaseOrder order)
+		public bool Cancle (Order order)
 		{
-			throw new NotImplementedException ();
+			WorkOrder workOrder = (WorkOrder)order;
+			if (this.deliveryManager.deleteOrder (workOrder) != null) { return true; } else { return false; }
 		}
 
-		public bool Create (PurchaseOrder order)
+		public bool Create (Order order)
 		{
-			throw new NotImplementedException ();
+			WorkOrder workOrder = (WorkOrder)order;
+			if (this.deliveryManager.insertOrder (workOrder) != null) { return true; } else { return false; }
 		}
 
-		public PurchaseOrder getOrder (int id)
+		public Order getOrder (int id)
 		{
-			throw new NotImplementedException ();
+			return deliveryManager.getOrderById (id);
 		}
 
-		public List<PurchaseOrder> getOrders ()
+		public List<Order> getOrders ()
 		{
-			throw new NotImplementedException ();
+			List<Order> orders = new List<Order> ();
+
+			//orders =  (PurchaseOrder)purchaseManager.getAllOrder ();
+
+			return orders;
 		}
 
-		public bool Process (PurchaseOrder order)
+		public bool Process (Order order)
 		{
-			throw new NotImplementedException ();
+			return true;
 		}
 
-		public bool Update (PurchaseOrder order)
+		public bool Update (Order order)
 		{
-			throw new NotImplementedException ();
+			return true;
+
 		}
+
 	}
 }

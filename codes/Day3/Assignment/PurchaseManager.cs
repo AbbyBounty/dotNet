@@ -3,55 +3,40 @@ using System.Collections.Generic;
 using OrderProcessing;
 using CRM;
 namespace OrderProcessing {
-	public class PurchaseManager:Manager {
+	public class PurchaseManager : Manager {
 
 		public List<PurchaseOrder> orders { get; set; }
 
 		public PurchaseManager ()
 		{
-
 			this.orders = new List<PurchaseOrder> ();
 		}
 
 
-		public String insertOrder (PurchaseOrder order)
+		public string insertOrder (PurchaseOrder order)
 		{
 			orders.Add (order);
-			if (orders != null)
-				return "order added";
-			else
-				return "error";
-
+			if (orders != null) return "order added"; else return "error";
 		}
 
 		public static void updateOrder ()
-		{
+		{ }
 
-
-		}
 
 		public string deleteOrder (PurchaseOrder order)
 		{
 			if (order != null) { orders.Remove (order); return "deleted successfully"; } else return "error";
-
 		}
 
 		public List<PurchaseOrder> getOrdersByCustomerId (int userid)
 		{
-			//Customer customer = new Customer();
-
 			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
 
 			foreach (PurchaseOrder order in this.orders) {
-
 				if (order.customer.id == userid) {
 					orders.Add (order);
 				}
-				
-
 			}
-
-
 			return orders;
 		}
 
@@ -59,8 +44,6 @@ namespace OrderProcessing {
 		{
 			PurchaseOrder order1 = new PurchaseOrder ();
 			foreach (PurchaseOrder order in this.orders) {
-
-
 				if (order.orderId == orderid)
 					order1 = order;
 				else
@@ -72,12 +55,9 @@ namespace OrderProcessing {
 
 		public List<PurchaseOrder> getAllOrder ()
 		{
-
 			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
 			foreach (PurchaseOrder order in this.orders) { orders.Add (order); }
-
 			return orders;
-
 		}
 
 		public override string ToString ()
@@ -85,7 +65,7 @@ namespace OrderProcessing {
 			return " " + this.orders;
 		}
 
-		
+
 	}
 }
 
