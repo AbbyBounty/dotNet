@@ -5,59 +5,49 @@ using CRM;
 namespace OrderProcessing {
 	public class PurchaseManager : Manager {
 
-		public List<PurchaseOrder> orders { get; set; }
+		public List<Order> orders { get; set; }
 
-		public PurchaseManager ()
+		public PurchaseManager (List<Order> orders)
 		{
-			this.orders = new List<PurchaseOrder> ();
+			this.orders = orders;
 		}
 
-
-		public string insertOrder (PurchaseOrder order)
+		public string insertOrder (Order order)
 		{
-			orders.Add (order);
-			if (orders != null) return "order added"; else return "error";
+			this.orders.Add (order);
+
+			if (this.orders != null) return "order added"; else return "error";
 		}
 
 		public static void updateOrder ()
-		{ }
-
-
-		public string deleteOrder (PurchaseOrder order)
 		{
-			if (order != null) { orders.Remove (order); return "deleted successfully"; } else return "error";
 		}
 
-		public List<PurchaseOrder> getOrdersByCustomerId (int userid)
+		public string deleteOrder (Order order)
 		{
-			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
+			if (this.orders != null) { this.orders.Remove (order); return "deleted successfully"; } else return "error";
+		}
 
-			foreach (PurchaseOrder order in this.orders) {
-				if (order.customer.id == userid) {
-					orders.Add (order);
-				}
-			}
+		public List<Order> getOrdersByCustomerId (string userid)
+		{
+			List<Order> orders = new List<Order> ();
+			foreach (PurchaseOrder purchaseOrder in this.orders) { if (purchaseOrder.customer == userid) { orders.Add (workOrder); } }
 			return orders;
 		}
 
-		public PurchaseOrder getOrderById (int orderid)
+		public Order getOrderById (int orderid)
 		{
-			PurchaseOrder order1 = new PurchaseOrder ();
-			foreach (PurchaseOrder order in this.orders) {
-				if (order.orderId == orderid)
-					order1 = order;
-				else
-					return null;
-			}
+			Order order1 = new Order ();
+			foreach (Order order in this.orders) { if (order.orderId == orderid) order1 = order; else return null; }
 			return order1;
 		}
 
 
-		public List<PurchaseOrder> getAllOrder ()
+		public List<Order> getAllOrder ()
 		{
-			List<PurchaseOrder> orders = new List<PurchaseOrder> ();
-			foreach (PurchaseOrder order in this.orders) { orders.Add (order); }
-			return orders;
+			List<Order> Orders = new List<Order> ();
+			foreach (WorkOrder workOrder in this.orders) { Orders.Add (workOrder); }
+			return Orders;
 		}
 
 		public override string ToString ()

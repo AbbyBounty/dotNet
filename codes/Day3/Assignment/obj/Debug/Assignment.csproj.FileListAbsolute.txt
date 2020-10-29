@@ -1,0 +1,6 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/obj/Debug/Assignment.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/obj/Debug/Assignment.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/bin/Debug/Assignment.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/bin/Debug/Assignment.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/obj/Debug/Assignment.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day3/Assignment/obj/Debug/Assignment.pdb

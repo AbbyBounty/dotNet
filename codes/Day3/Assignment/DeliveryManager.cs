@@ -7,54 +7,54 @@ namespace OrderProcessing {
 		public DeliveryManager () { }
 		
 
-		public List<WorkOrder> workOrders { get; set; }
+		public List<Order> orders { get; set; }
 
-		public DeliveryManager (List<WorkOrder> workOrders)
+		public DeliveryManager (List<Order> orders)
 		{
-			this.workOrders = workOrders;
+			this.orders = orders;
 		}
 
-		public string insertOrder (WorkOrder workOrders)
+		public string insertOrder (Order order)
 		{
-			 this.workOrders.Add (workOrders); 
+			 this.orders.Add (order); 
 			
-			if (this.workOrders != null) return "order added"; else return "error";
+			if (this.orders != null) return "order added"; else return "error";
 		}
 
 		public static void updateOrder ()
 		{
 		}
 
-		public string deleteOrder (WorkOrder workOrder)
+		public string deleteOrder (Order order)
 		{
-			if (this.workOrders != null) {this.workOrders.Remove (workOrder); return "deleted successfully"; } else return "error";
+			if (this.orders != null) {this.orders.Remove (order); return "deleted successfully"; } else return "error";
 		}
 
-		public List<WorkOrder> getOrdersByCustomerId (string userid)
+		public List<Order> getOrdersByCustomerId (string userid)
 		{
-			List<WorkOrder> workOrders = new List<WorkOrder> ();
-			foreach (WorkOrder workOrder in this.workOrders) { if (workOrder.Vendor == userid) { workOrders.Add (workOrder); } }
-			return workOrders;
+			List<Order> orders = new List<Order> ();
+			foreach (WorkOrder workOrder in this.orders) { if (workOrder.Vendor == userid) { orders.Add (workOrder); } }
+			return orders;
 		}
 
-		public WorkOrder getOrderById (int orderid)
+		public Order getOrderById (int orderid)
 		{
-			WorkOrder order1 = new WorkOrder ();
-			foreach (WorkOrder workOrder in this.workOrders) { if (workOrder.orderId == orderid) order1 = workOrder; else return null; }
+			Order order1 = new Order ();
+			foreach (Order order in this.orders) { if (order.orderId == orderid) order1 = order; else return null; }
 			return order1;
 		}
 
 
-		public List<WorkOrder> getAllOrder ()
+		public List<Order> getAllOrder ()
 		{
-			List<WorkOrder> workOrders = new List<WorkOrder> ();
-			foreach (WorkOrder purchaseOrder in this.workOrders) { workOrders.Add (purchaseOrder); }
-			return workOrders;
+			List<Order> Orders = new List<Order> ();
+			foreach (WorkOrder workOrder in this.orders) { Orders.Add (workOrder); }
+			return Orders;
 		}
 
 		public override string ToString ()
 		{
-			return " " + this.workOrders;
+			return " " + this.orders;
 		}
 	}
 	
