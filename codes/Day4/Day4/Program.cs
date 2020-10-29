@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Mathlib;
 namespace Day4 {
 
 
@@ -12,7 +12,8 @@ namespace Day4 {
 		//}
 		public static void Main (string [] args)
 		{
-			Console.WriteLine ("Hello day 4");
+			
+			Console.WriteLine (MathEngine.Addition (1, 2));
 		}
 	}
 }

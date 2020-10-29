@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{9A501FEA-7140-4FE8-B529-370E1FC805DA}|Default">
   <MonoDevelop.Ide.ItemProperties.Day4 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShoppingCart FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day4/Program.cs">
     <Files>
-      <File FileName="Day4/Program.cs" Line="17" Column="3" />
+      <File FileName="Day4/Program.cs" Line="15" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Day4" expanded="True">
-            <Node name="Day4" expanded="True">
-              <Node name="References" expanded="True" selected="True" />
-            </Node>
-            <Node name="Mathlib" expanded="True" />
-            <Node name="OrderProccesing" expanded="True" />
+            <Node name="ShoppingCart" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.catalogue FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.CRM FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Banking FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
