@@ -1,0 +1,9 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/CRM.deps.json
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/CRM.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/CRM.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.AssemblyInfoInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.AssemblyInfo.cs
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.pdb

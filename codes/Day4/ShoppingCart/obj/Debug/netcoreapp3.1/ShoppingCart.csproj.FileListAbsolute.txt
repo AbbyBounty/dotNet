@@ -1,0 +1,9 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/bin/Debug/netcoreapp3.1/ShoppingCart.deps.json
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/bin/Debug/netcoreapp3.1/ShoppingCart.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/bin/Debug/netcoreapp3.1/ShoppingCart.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.AssemblyInfoInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.AssemblyInfo.cs
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/Debug/netcoreapp3.1/ShoppingCart.pdb
