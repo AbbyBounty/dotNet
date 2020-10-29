@@ -1,0 +1,9 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/bin/Debug/netstandard2.1/Mathlib.deps.json
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/bin/Debug/netstandard2.1/Mathlib.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/bin/Debug/netstandard2.1/Mathlib.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.AssemblyInfoInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.AssemblyInfo.cs
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/Debug/netstandard2.1/Mathlib.pdb

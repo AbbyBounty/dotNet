@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4", "Day4\Day4.csproj", "{9A501FEA-7140-4FE8-B529-370E1FC805DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathlib", "Mathlib\Mathlib.csproj", "{86772285-56E0-4E3C-A19A-AABAC37A3B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProccesing", "OrderProccesing\OrderProccesing.csproj", "{7A15A981-FAA0-4857-85D5-E10B479FBA83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +17,13 @@ Global
 		{9A501FEA-7140-4FE8-B529-370E1FC805DA}.Debug|anycpu.Build.0 = Debug|anycpu
 		{9A501FEA-7140-4FE8-B529-370E1FC805DA}.Release|anycpu.ActiveCfg = Release|anycpu
 		{9A501FEA-7140-4FE8-B529-370E1FC805DA}.Release|anycpu.Build.0 = Release|anycpu
+		{86772285-56E0-4E3C-A19A-AABAC37A3B81}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{86772285-56E0-4E3C-A19A-AABAC37A3B81}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{86772285-56E0-4E3C-A19A-AABAC37A3B81}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{86772285-56E0-4E3C-A19A-AABAC37A3B81}.Release|anycpu.Build.0 = Release|Any CPU
+		{7A15A981-FAA0-4857-85D5-E10B479FBA83}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{7A15A981-FAA0-4857-85D5-E10B479FBA83}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{7A15A981-FAA0-4857-85D5-E10B479FBA83}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{7A15A981-FAA0-4857-85D5-E10B479FBA83}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
