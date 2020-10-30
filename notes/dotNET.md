@@ -200,59 +200,57 @@ Console.WriteLine();
             - four stroke -----Splendor, pulsar, etc.
             - multi cyclinder engine------ Heavy Vehicles
 
+	- Software:	
+        - millions of softwares been developed in these 60  years.
+        - Insurance
+        - Telecom
+        - Finance
+        - Research & Development
+        - Production
 
-				
-	
-		 Software:	
-			  millions of softwares been developed in these 60  years.
-			  Insurance
-			  Telecom
-			  Finance
-			  Research & Development
-			  Production
-
-		 Few Computer engg. discrovered common patterns applied in those solutions.
+		 >Few Computer engg. discrovered common patterns applied in those solutions.
 		 They named it as Design Patterns
 
-
-		 Design Patterns
+---
+## Design Patterns
 				  
 
-		Can  you write code using standard structure to solve common problem
+>Can  you write code using standard structure to solve common problem
 				
-				MVC           ( Model---- View------ Controller)
-				Singleton     ( only instacne of class will  be created)
-				Class Factory ( )
-				.etc.
+- MVC           ( Model---- View------ Controller)
+- Singleton     ( only instacne of class will  be created)
+- Class Factory ( )
+.etc.
 
 
-	   Music:	
-		 Swar: ( syntax)
-		      Sa , Re, Ga............  
+- Music:	
+    - Swar: ( syntax)
+         - Sa , Re, Ga............  
 
-	  Classical Music: ( design patterns)
-			
-			Ragas ( Patterns)
-				composition of swar
+- Classical Music: ( design patterns)
+    - Ragas ( Patterns)
+       -  composition of swar
 
 
-	 Bolloywood Song: ( building Softwares)
-			has been composed my Musical Director
-			 taal  + laay + Sur   =Melody
+- Bolloywood Song: ( building Softwares)
+    - has been composed my Musical Director
+      -   taal  + laay + Sur   =Melody
 
 				
+-----
 	
-	
-	Event Drive Mechanism
+## Event Drive Mechanism
 
-	 Event Delagation Model
-	  events: underbalance, overbalance
-	  delegations: HDFCBank, Goverment
+- Event Delagation Model
+- events: underbalance, overbalance
+- delegations: HDFCBank, Goverment
 	
-	 First Observer : Account object ( to be observed  is balance)
-	 Events:	underbalance, overbalance  ( notify to external subscribers)
-	 Subscribers:	HDFC Bank , Government    ( respond to events occured  
-						    against notification received )
+- First Observer : 
+    - Account object ( to be observed  is balance)
+- Events:	
+   - underbalance, overbalance  ( notify to external subscribers)
+- Subscribers:	
+   - HDFC Bank , Government    ( respond to events occured against notification received )
 
 		
 
