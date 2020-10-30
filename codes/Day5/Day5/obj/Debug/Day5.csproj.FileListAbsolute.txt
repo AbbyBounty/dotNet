@@ -1,0 +1,12 @@
+/Users/abhilash/Projects/Day5/Day5/bin/Debug/Day5.exe
+/Users/abhilash/Projects/Day5/Day5/bin/Debug/Day5.pdb
+/Users/abhilash/Projects/Day5/Day5/obj/Debug/Day5.csprojAssemblyReference.cache
+/Users/abhilash/Projects/Day5/Day5/obj/Debug/Day5.csproj.CoreCompileInputs.cache
+/Users/abhilash/Projects/Day5/Day5/obj/Debug/Day5.exe
+/Users/abhilash/Projects/Day5/Day5/obj/Debug/Day5.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/bin/Debug/Day5.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/bin/Debug/Day5.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/obj/Debug/Day5.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/obj/Debug/Day5.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/obj/Debug/Day5.exe
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day5/Day5/obj/Debug/Day5.pdb
