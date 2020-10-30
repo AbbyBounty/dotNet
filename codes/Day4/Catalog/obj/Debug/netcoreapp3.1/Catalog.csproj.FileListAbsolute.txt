@@ -1,0 +1,9 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/bin/Debug/netcoreapp3.1/Catalog.deps.json
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/bin/Debug/netcoreapp3.1/Catalog.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/bin/Debug/netcoreapp3.1/Catalog.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.csprojAssemblyReference.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.AssemblyInfoInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.AssemblyInfo.cs
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/Debug/netcoreapp3.1/Catalog.pdb

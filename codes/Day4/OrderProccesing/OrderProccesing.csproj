@@ -4,4 +4,21 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="CRM">
+      <HintPath>..\CRM\bin\Debug\netcoreapp3.1\CRM.dll</HintPath>
+    </Reference>
+    <Reference Include="Cataloge">
+      <HintPath>..\Catalog\bin\Debug\netcoreapp3.1\Cataloge.dll</HintPath>
+    </Reference>
+    <Reference Include="ShoppingCart">
+      <HintPath>..\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Membership\Membership.csproj" />
+    <ProjectReference Include="..\Mathlib\Mathlib.csproj" />
+    <ProjectReference Include="..\Catalog\Cataloge.csproj" />
+    <ProjectReference Include="..\Banking\Banking.csproj" />
+  </ItemGroup>
 </Project>

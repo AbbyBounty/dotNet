@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {}
+  },
+  "projects": {
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj",
+        "projectName": "Cataloge",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

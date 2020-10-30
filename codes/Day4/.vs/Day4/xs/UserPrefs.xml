@@ -19,9 +19,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Day4" expanded="True">
-            <Node name="CRM" expanded="True">
-              <Node name="Manager.cs" selected="True" />
-            </Node>
+            <Node name="Day4" selected="True" />
           </Node>
         </State>
       </Pad>
