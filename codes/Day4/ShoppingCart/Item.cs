@@ -1,5 +1,4 @@
-﻿
-using Cataloge;
+﻿using Cataloge;
 using System;
 namespace ShoppingCart
 {

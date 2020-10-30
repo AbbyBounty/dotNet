@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="CRM">
+      <HintPath>..\CRM\bin\Debug\netcoreapp3.1\CRM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

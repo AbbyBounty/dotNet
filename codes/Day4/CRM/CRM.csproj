@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Banking\Banking.csproj" />
+    <ProjectReference Include="..\Catalog\Cataloge.csproj" />
+    <ProjectReference Include="..\Mathlib\Mathlib.csproj" />
+    <ProjectReference Include="..\Membership\Membership.csproj" />
+    <ProjectReference Include="..\OrderProccesing\OrderProccesing.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+  </ItemGroup>
 </Project>

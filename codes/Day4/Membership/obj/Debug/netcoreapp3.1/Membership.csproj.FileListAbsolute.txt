@@ -1,4 +1,12 @@
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/bin/Debug/netcoreapp3.1/Membership.deps.json
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/bin/Debug/netcoreapp3.1/Membership.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/bin/Debug/netcoreapp3.1/Membership.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/bin/Debug/netcoreapp3.1/CRM.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/bin/Debug/netcoreapp3.1/CRM.pdb
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.csprojAssemblyReference.cache
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.AssemblyInfoInputs.cache
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.AssemblyInfo.cs
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.csproj.CoreCompileInputs.cache
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.csproj.CopyComplete
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/Debug/netcoreapp3.1/Membership.pdb

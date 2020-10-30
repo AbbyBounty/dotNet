@@ -32,7 +32,7 @@ namespace OrderProcessing {
 
                 public override string ToString ()
                 {
-                        return this.orderDate + " " + this.customer.ToString ();
+                        return this.orderDate + " ";
                 }
 
                

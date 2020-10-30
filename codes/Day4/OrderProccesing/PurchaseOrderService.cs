@@ -22,8 +22,8 @@ namespace OrderProcessing {
 
 		public bool Create (Order order)
 		{
-			PurchaseOrder purchaseOrder = (PurchaseOrder)order;
-			if (this.purchaseManager.insertOrder (purchaseOrder) != null) { return true; } else { return false; }
+			
+			if (this.purchaseManager.insertOrder (order) != null) { return true; } else { return false; }
 		}
 
 		public Order getOrder (int id)

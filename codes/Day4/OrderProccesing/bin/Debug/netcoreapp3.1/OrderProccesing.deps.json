@@ -7,8 +7,56 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "OrderProccesing/1.0.0": {
+        "dependencies": {
+          "Banking": "1.0.0",
+          "Cataloge": "1.0.0",
+          "Mathlib": "1.0.0",
+          "Membership": "1.0.0",
+          "Cataloge.Reference": "1.0.0.0",
+          "CRM": "1.0.0.0",
+          "ShoppingCart": "1.0.0.0"
+        },
         "runtime": {
           "OrderProccesing.dll": {}
+        }
+      },
+      "Banking/1.0.0": {
+        "runtime": {
+          "Banking.dll": {}
+        }
+      },
+      "Mathlib/1.0.0": {
+        "runtime": {
+          "Mathlib.dll": {}
+        }
+      },
+      "Membership/1.0.0": {
+        "runtime": {
+          "Membership.dll": {}
+        }
+      },
+      "Cataloge.Reference/1.0.0.0": {
+        "runtime": {
+          "Cataloge.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CRM/1.0.0.0": {
+        "runtime": {
+          "CRM.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ShoppingCart/1.0.0.0": {
+        "runtime": {
+          "ShoppingCart.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +64,36 @@
   "libraries": {
     "OrderProccesing/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Banking/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mathlib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Membership/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cataloge.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRM/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

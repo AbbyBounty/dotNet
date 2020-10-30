@@ -1,11 +1,122 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Banking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Banking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banking.dll": {}
+        }
+      },
+      "Cataloge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cataloge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cataloge.dll": {}
+        }
+      },
+      "Mathlib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Mathlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mathlib.dll": {}
+        }
+      },
+      "Membership/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Membership.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.dll": {}
+        }
+      },
+      "OrderProccesing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Banking": "1.0.0",
+          "Cataloge": "1.0.0",
+          "Mathlib": "1.0.0",
+          "Membership": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProccesing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProccesing.dll": {}
+        }
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Banking": "1.0.0",
+          "Cataloge": "1.0.0",
+          "Membership": "1.0.0",
+          "OrderProccesing": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Banking/1.0.0": {
+      "type": "project",
+      "path": "../Banking/Banking.csproj",
+      "msbuildProject": "../Banking/Banking.csproj"
+    },
+    "Cataloge/1.0.0": {
+      "type": "project",
+      "path": "../Catalog/Cataloge.csproj",
+      "msbuildProject": "../Catalog/Cataloge.csproj"
+    },
+    "Mathlib/1.0.0": {
+      "type": "project",
+      "path": "../Mathlib/Mathlib.csproj",
+      "msbuildProject": "../Mathlib/Mathlib.csproj"
+    },
+    "Membership/1.0.0": {
+      "type": "project",
+      "path": "../Membership/Membership.csproj",
+      "msbuildProject": "../Membership/Membership.csproj"
+    },
+    "OrderProccesing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProccesing/OrderProccesing.csproj",
+      "msbuildProject": "../OrderProccesing/OrderProccesing.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Banking >= 1.0.0",
+      "Cataloge >= 1.0.0",
+      "Mathlib >= 1.0.0",
+      "Membership >= 1.0.0",
+      "OrderProccesing >= 1.0.0",
+      "ShoppingCart >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/abhilash/.nuget/packages/": {}
@@ -30,7 +141,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj"
+            },
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj"
+            },
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj"
+            },
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj"
+            },
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj"
+            },
+            "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj": {
+              "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

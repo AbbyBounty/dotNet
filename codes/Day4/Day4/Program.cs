@@ -9,11 +9,11 @@ namespace Day4 {
 		//static int substract (int num, int num2)
 		//{
 
-		//}
-		public static void Main (string [] args)
-		{
+		////}
+		//public static void Main (string [] args)
+		//{
 			
-			Console.WriteLine (MathEngine.Addition (1, 2));
-		}
+		//	Console.WriteLine (MathEngine.Addition (1, 2));
+		//}
 	}
 }

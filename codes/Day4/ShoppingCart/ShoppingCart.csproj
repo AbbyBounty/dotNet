@@ -4,4 +4,24 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="catalogue">
+      <HintPath>..\catalogue\bin\Debug\netcoreapp3.1\catalogue.dll</HintPath>
+    </Reference>
+    <Reference Include="cataloge">
+      <HintPath>..\catalogue\bin\Debug\netcoreapp3.1\cataloge.dll</HintPath>
+    </Reference>
+    <Reference Include="Catalog">
+      <HintPath>..\Catalog\bin\Debug\netcoreapp3.1\Catalog.dll</HintPath>
+    </Reference>
+    <Reference Include="Cataloge">
+      <HintPath>..\Catalog\bin\Debug\netcoreapp3.1\Cataloge.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking\Banking.csproj" />
+    <ProjectReference Include="..\Catalog\Cataloge.csproj" />
+    <ProjectReference Include="..\Membership\Membership.csproj" />
+    <ProjectReference Include="..\OrderProccesing\OrderProccesing.csproj" />
+  </ItemGroup>
 </Project>

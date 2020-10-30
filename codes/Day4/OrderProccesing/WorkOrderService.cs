@@ -16,14 +16,14 @@ namespace OrderProcessing {
 
 		public bool Cancle (Order order)
 		{
-			WorkOrder workOrder = (WorkOrder)order;
-			if (this.deliveryManager.deleteOrder (workOrder) != null) { return true; } else { return false; }
+			this.deliveryManager.deleteOrder (order);
+			if (this.deliveryManager!= null) { return true; } else { return false; }
 		}
 
 		public bool Create (Order order)
 		{
-			WorkOrder workOrder = (WorkOrder)order;
-			if (this.deliveryManager.insertOrder (workOrder) != null) { return true; } else { return false; }
+			this.deliveryManager.insertOrder (order);
+			if (this.deliveryManager != null) { return true; } else { return false; }
 		}
 
 		public Order getOrder (int id)

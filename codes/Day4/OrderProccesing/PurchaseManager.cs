@@ -7,6 +7,10 @@ namespace OrderProcessing {
 
 		public List<Order> orders { get; set; }
 
+		public PurchaseManager ()
+		{
+		}
+
 		public PurchaseManager (List<Order> orders)
 		{
 			this.orders = orders;
@@ -14,7 +18,8 @@ namespace OrderProcessing {
 
 		public string insertOrder (Order order)
 		{
-			this.orders.Add (order);
+			Console.WriteLine (order);
+			//this.orders.Add (order);
 
 			if (this.orders != null) return "order added"; else return "error";
 		}
@@ -28,10 +33,10 @@ namespace OrderProcessing {
 			if (this.orders != null) { this.orders.Remove (order); return "deleted successfully"; } else return "error";
 		}
 
-		public List<Order> getOrdersByCustomerId (string userid)
+		public List<Order> getOrdersByCustomerId (int userid)
 		{
 			List<Order> orders = new List<Order> ();
-			foreach (PurchaseOrder purchaseOrder in this.orders) { if (purchaseOrder.customer == userid) { orders.Add (workOrder); } }
+			foreach (PurchaseOrder purchaseOrder in this.orders) { if (purchaseOrder.customer.id == userid) { orders.Add (purchaseOrder); } }
 			return orders;
 		}
 

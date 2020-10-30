@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="catalogue">
+      <HintPath>..\catalogue\bin\Debug\netcoreapp3.1\catalogue.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

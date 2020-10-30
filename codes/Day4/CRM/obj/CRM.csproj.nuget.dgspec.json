@@ -4,6 +4,106 @@
     "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/CRM.csproj": {}
   },
   "projects": {
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj",
+        "projectName": "Banking",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj",
+        "projectName": "Cataloge",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/CRM.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +124,252 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj",
+        "projectName": "Mathlib",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj",
+        "projectName": "Membership",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj",
+        "projectName": "OrderProccesing",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Mathlib/Mathlib.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/ShoppingCart.csproj",
+        "packagesPath": "/Users/abhilash/.nuget/packages/",
+        "outputPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/ShoppingCart/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhilash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Banking/Banking.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Catalog/Cataloge.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/Membership/Membership.csproj"
+              },
+              "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj": {
+                "projectPath": "/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/OrderProccesing/OrderProccesing.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

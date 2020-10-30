@@ -38,10 +38,24 @@
     <Reference Include="Mathlib">
       <HintPath>..\Mathlib\bin\Debug\netstandard2.1\Mathlib.dll</HintPath>
     </Reference>
+    <Reference Include="OrderProccesing">
+      <HintPath>..\OrderProccesing\bin\Debug\netcoreapp3.1\OrderProccesing.dll</HintPath>
+    </Reference>
+    <Reference Include="CRM">
+      <HintPath>..\CRM\bin\Debug\netcoreapp3.1\CRM.dll</HintPath>
+    </Reference>
+    <Reference Include="ShoppingCart">
+      <HintPath>..\ShoppingCart\bin\Debug\netcoreapp3.1\ShoppingCart.dll</HintPath>
+    </Reference>
+    <Reference Include="Cataloge">
+      <HintPath>..\Catalog\bin\Debug\netcoreapp3.1\Cataloge.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestWorkOrders.cs" />
+    <Compile Include="TestPurchaseOrders.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

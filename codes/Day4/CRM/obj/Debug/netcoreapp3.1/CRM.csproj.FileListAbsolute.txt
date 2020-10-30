@@ -7,3 +7,16 @@
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.csproj.CoreCompileInputs.cache
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.dll
 /Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Banking.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Cataloge.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Mathlib.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Membership.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/OrderProccesing.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/ShoppingCart.dll
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Banking.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Cataloge.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Mathlib.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/Membership.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/OrderProccesing.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/bin/Debug/netcoreapp3.1/ShoppingCart.pdb
+/Users/abhilash/Desktop/GitHub/dotNet/codes/Day4/CRM/obj/Debug/netcoreapp3.1/CRM.csproj.CopyComplete
