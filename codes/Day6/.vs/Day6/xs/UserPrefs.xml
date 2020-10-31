@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{855EB3BC-B420-4924-A6D8-3ADCF975A87D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Day6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webform/Web.config">
+    <Files>
+      <File FileName="webform/Default.aspx" Line="1" Column="1" />
+      <File FileName="webform.Tests/Test.cs" Line="1" Column="1" />
+      <File FileName="webform/Web.config" Line="18" Column="17" />
+      <File FileName="webform/Global.asax" Line="1" Column="1" />
+      <File FileName="webform/form.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day6" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.webform.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ConsoleApp1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

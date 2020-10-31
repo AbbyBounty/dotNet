@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6", "Day6\Day6.csproj", "{0EE6B9C0-6286-4E9F-8BC1-A4AE188D3168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webform", "webform\webform.csproj", "{1F76B4FF-2C85-44EE-8128-42B6221B5C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webform.Tests", "webform.Tests\webform.Tests.csproj", "{02CDE915-1BC1-45D1-BFE6-7C15653F66D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE6B9C0-6286-4E9F-8BC1-A4AE188D3168}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{0EE6B9C0-6286-4E9F-8BC1-A4AE188D3168}.Debug|anycpu.Build.0 = Debug|anycpu
+		{0EE6B9C0-6286-4E9F-8BC1-A4AE188D3168}.Release|anycpu.ActiveCfg = Release|anycpu
+		{0EE6B9C0-6286-4E9F-8BC1-A4AE188D3168}.Release|anycpu.Build.0 = Release|anycpu
+		{1F76B4FF-2C85-44EE-8128-42B6221B5C79}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{1F76B4FF-2C85-44EE-8128-42B6221B5C79}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{1F76B4FF-2C85-44EE-8128-42B6221B5C79}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{1F76B4FF-2C85-44EE-8128-42B6221B5C79}.Release|anycpu.Build.0 = Release|Any CPU
+		{02CDE915-1BC1-45D1-BFE6-7C15653F66D3}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{02CDE915-1BC1-45D1-BFE6-7C15653F66D3}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{02CDE915-1BC1-45D1-BFE6-7C15653F66D3}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{02CDE915-1BC1-45D1-BFE6-7C15653F66D3}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
